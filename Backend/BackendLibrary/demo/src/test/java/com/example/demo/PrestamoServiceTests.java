@@ -95,7 +95,8 @@ public class PrestamoServiceTests {
         when(prestamoRepository.findById(id)).thenReturn(Optional.empty());
 
         PrestamoResponse response = prestamoService.obtenerPrestamo(id);
-
-        assertNull(response);
+        
+        System.out.println(response);
+        assertNull(response.getData());
     }
 }
