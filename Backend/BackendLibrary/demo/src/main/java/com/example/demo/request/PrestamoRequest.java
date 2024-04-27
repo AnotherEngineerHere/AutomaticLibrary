@@ -1,6 +1,5 @@
 package com.example.demo.request;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
